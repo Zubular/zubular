@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Zubular",
+  "description": "This extension adds time-tracking and reporting to Zube",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "http://zube.io/*",
+    "https://zube.io/*"
+  ]
+}
